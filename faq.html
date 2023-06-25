@@ -1,0 +1,37 @@
+---
+layout: page
+title: FAQ
+nav: FAQ
+permalink: /faq.html
+sections:
+- dual-power
+- our-values
+- the-event
+- format
+- location
+- accessibility
+- kids
+- pets
+- last-year
+- ticket
+- endorsements
+- outside-midwest
+---
+          
+<section class="u-clearfix u-palette-1-dark-1 u-updates-section-1">
+  <div class="u-clearfix u-sheet u-valign-middle u-updates-sheet-1">
+    <h1 class="u-align-center u-text u-updates-text-1">Frequently Asked Questions</h1>
+  </div>
+</section>
+
+<section class="u-clearfix u-valign-middle u-updates-section-2">
+    <div style="margin: 50px;">
+      {% for section in page.sections %}
+        <details id="{{ section }}">
+          {% capture info %}{% include_relative faq/{{ section }}.md %}{% endcapture %}
+          {{ info | markdownify }}
+        </details>
+        <hr>
+      {% endfor %}
+    </div>
+</section>
