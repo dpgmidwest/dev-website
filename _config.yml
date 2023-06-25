@@ -9,7 +9,7 @@ domain: "dpgmidwest.org"
 github_repo: "https://github.com/dpgmidwest/dpgmidwest.github.io"
 featured-tags: False
 featured-condition-size: 100
-baseurl: ""
+baseurl: "http://www.dpgmidwest.org/dev-website"
 RSS: true
 permalink: pretty
 paginate: 10
