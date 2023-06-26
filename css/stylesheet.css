@@ -23,32 +23,33 @@
     --btn-hover-text: var(--light-gray);
     --nav-text: var(--white);
 }
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    font-size: 16px;
-}
-body {
-    margin: 0;
-    font-size: 1rem;
-    line-height: 1.6;
-}
 
 *,
 :after,
 :before {
     box-sizing: border-box;
 }
+
 html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
     height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
 }
+
 body {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.6;
     height: auto;
     min-height: 100%;
+    background-color: var(--body-bg);
+    color: var(--body-text);
 }
+
 body,
 footer,
 header,
@@ -1580,9 +1581,6 @@ div.u-video {
 .u-nav-link:focus,
 .u-nav-link:hover {
     text-decoration: none;
-}
-.menu-collapse a.u-nav-link,
-.u-nav-item a.u-nav-link {
 }
 .u-nav-container > .u-nav > .u-nav-item > .u-nav-link {
     padding: 10px 20px;
