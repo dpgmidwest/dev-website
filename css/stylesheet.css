@@ -98,12 +98,11 @@ footer {
 }
 
 summary {
-    font-size: 2.25rem;
+    font-size: 1.5em;
     line-height: 1.1;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-weight: 600;
-    text-transform: uppercase;
     font-family: "Titillium Web", sans-serif;
     color: var(--faq-text);
     cursor: pointer;
@@ -115,6 +114,10 @@ menu,
 nav,
 section {
     display: block;
+}
+
+details[open] {
+    padding-bottom: 50px;
 }
 
 video {
@@ -162,7 +165,7 @@ ul {
 }
 
 .responsive-sheet {
-    padding: 50px;
+    padding: 40px 50px;
     min-width: 500px;
     max-width: 1100px;
     margin: 0 auto;
@@ -170,7 +173,7 @@ ul {
 
 @media (max-width: 575px) {
     .responsive-sheet {
-        padding: 50px 25px;
+        padding: 25px;
         width: 100%;
         min-width: none;
     }
@@ -2397,7 +2400,6 @@ a {
 }
 
 ol {
-    font-size: 1.125rem;
     margin-top: 20px;
     margin-bottom: 20px;
     line-height: 1.6;

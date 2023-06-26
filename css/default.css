@@ -592,6 +592,10 @@ footer>* {
   }
 }
 
+.container-faq {
+  margin: 0 50px 25px 50px;
+}
+
 /******* Begin post.html Custom CSS ********/
 
 .u-blog-section-1 .u-blog-sheet-1 {
