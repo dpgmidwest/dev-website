@@ -85,6 +85,7 @@ section>* {
 a {
     color: var(--a-text);
     text-decoration: none;
+    font-weight: 500;
 }
 
 a:hover {
@@ -220,13 +221,6 @@ ul {
 .u-text:not(ul):not(ol):not(p):not(.u-post-content):not(.u-block-content):not(.u-product-desc):not(.u-cart-block-content):not(.u-checkout-block-content) a,
 .u-text:not(ul):not(ol):not(p):not(.u-post-content):not(.u-block-content):not(.u-product-desc):not(.u-cart-block-content):not(.u-checkout-block-content) a:hover {
     text-decoration: none;
-}
-
-.u-link,
-a {
-    border-top-width: 0;
-    border-left-width: 0;
-    border-right-width: 0;
 }
 
 .u-link {
@@ -2378,12 +2372,6 @@ p.u-large-text {
     font-size: 1.25rem;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-a {
-    font-size: 1.125rem;
-    line-height: 1.6;
-    font-weight: 700;
 }
 
 .btn {
