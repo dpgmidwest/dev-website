@@ -111,7 +111,7 @@ footer>* {
 }
 
 .small-page-container {
-  min-height: 400px;
+  min-height: max(400px, calc(100vh - 288px - 229px - 45.59px));
   display: flex;
   flex-direction: column;
   justify-content: center;
