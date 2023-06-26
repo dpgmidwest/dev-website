@@ -2401,13 +2401,6 @@ p.u-large-text {
     margin-bottom: 20px;
 }
 
-p:not(.u-text-variant) {
-    font-size: 1.125rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
-
 a {
     font-size: 1.125rem;
     line-height: 1.6;
@@ -2521,12 +2514,6 @@ ol {
 @media (max-width: 575px) {
     h3 {
         font-size: 1.5rem;
-    }
-}
-
-@media (max-width: 767px) {
-    p:not(.u-text-variant) {
-        font-size: 1rem;
     }
 }
 
