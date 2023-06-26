@@ -452,7 +452,7 @@ pre {
   }
 }
 
-@media (max-width: 359px) {
+@media (min-width: 260px) and (max-width: 359px) {
 
   body {
     word-break: break-word;
@@ -493,5 +493,12 @@ pre {
 
   .display-img-div {
     min-height: 680px;
+  }
+}
+
+@media (max-width: 259px) {
+  .inner-post-container,
+  .container-nav {
+    width: var(--theme-sheet-width-xxxs) !important;
   }
 }
