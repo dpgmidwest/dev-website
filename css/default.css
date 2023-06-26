@@ -140,9 +140,16 @@ footer>* {
   line-height: 1.5;
 }
 
-.container-home>h1 {
+.container-home>h1, .container-home>h2 {
   font-weight: 700;
   letter-spacing: -1px;
+}
+
+.container-home>h1 {
+  font-size: 2.25em;
+}
+.container-home>h2 {
+  font-size: 2em;
 }
 
 .container-home>.btn {
@@ -151,6 +158,21 @@ footer>* {
 
 .container-home>p {
   text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 439px) {
+  .display-img-div {
+    min-height: 515px;
+  }
+  .post-image {
+    min-width: 275px;
+    min-height: 230px;
+  }
+  footer {
+    padding: 40px 25px;
+  }
 }
 
 .display-img-div {
@@ -287,6 +309,8 @@ section.post-head-container>div.inner-post-container {
 h1.post-title {
   font-size: 2.75em;
 }
+
+
 
 @media (min-width: 1400px) {
   .inner-post-container {
