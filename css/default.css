@@ -597,3 +597,7 @@ thead {
   letter-spacing: 1px;
   border-bottom: solid 2px var(--light-gray);
 }
+
+.section-header {
+  background-color: var(--header-bg);
+}
