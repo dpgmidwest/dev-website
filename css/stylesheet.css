@@ -1,7 +1,7 @@
 :root {
     /* basic colors */
     --black: rgb(0, 0, 0);
-    --dark-gray: rgb(35, 35, 35);
+    --dark-gray: rgb(20, 20, 20);
     --med-gray: rgb(66, 66, 66);
     --light-gray: rgb(190, 190, 190);
     --white: rgb(235, 235, 235);
@@ -9,8 +9,8 @@
     --light-red: rgb(224, 70, 67);
 
     /* background colors */
-    --body-bg: var(--med-gray);
-    --card-bg: var(--dark-gray);
+    --body-bg: var(--dark-gray);
+    --card-bg: var(--card-gray);
     --header-bg: var(--black);
     --nav-bg: var(--red);
     --btn-bg: var(--red);
