@@ -180,6 +180,10 @@ footer>* {
   }
 }
 
+.preview-summary {
+  display: block;
+}
+
 @media (max-width: 439px) {
   .display-img-div {
     min-height: 515px;
@@ -190,6 +194,9 @@ footer>* {
   }
   footer {
     padding: 40px 25px;
+  }
+  .preview-summary {
+    display: none;
   }
 }
 
