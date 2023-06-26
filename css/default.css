@@ -656,6 +656,11 @@ thead {
   background-color: var(--header-bg);
   box-shadow: 0 5px 0px var(--light-red);
   margin-bottom: 5px;
+  text-align: center;
+}
+
+.section-header > * {
+  padding: 10px 0;
 }
 
 a>h2 {
