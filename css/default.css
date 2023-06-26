@@ -163,19 +163,6 @@ footer>* {
   margin-bottom: 25px;
 }
 
-@media (max-width: 439px) {
-  .display-img-div {
-    min-height: 515px;
-  }
-  .post-image {
-    min-width: 275px;
-    min-height: 230px;
-  }
-  footer {
-    padding: 40px 25px;
-  }
-}
-
 .display-img-div {
   background-image: url("../images/moshed-trees23.png");
   background-position: 50% 50%;
@@ -190,6 +177,19 @@ footer>* {
 @media (max-width: 626px) {
   .display-img-div {
     min-height: 420px;
+  }
+}
+
+@media (max-width: 439px) {
+  .display-img-div {
+    min-height: 515px;
+  }
+  .post-image {
+    min-width: 275px;
+    min-height: 230px;
+  }
+  footer {
+    padding: 40px 25px;
   }
 }
 
