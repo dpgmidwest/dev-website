@@ -28,7 +28,7 @@ nav-include: true
     <div style="margin: 50px;">
       {% for section in page.sections %}
         <details id="{{ section }}">
-          {% capture info %}{% include_relative faq/{{ section }}.md %}{% endcapture %}
+          {% capture info %}{% include faq/{{ section }}.md %}{% endcapture %}
           {{ info | markdownify }}
         </details>
         <hr>
