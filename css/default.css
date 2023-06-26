@@ -459,8 +459,9 @@ pre {
   }
 
   .btn {
-    padding-left: 10px;
-    padding-right: 10px;
+    font-size: 14px;
+    padding-right: 15px;
+    padding: 15px 25px;
   }
 
   footer {
