@@ -196,7 +196,6 @@ ul {
     vertical-align: middle;
     text-align: center;
     padding: 10px 30px;
-    align-self: flex-start;
     background-color: var(--btn-bg);
     color: var(--btn-text);
 }
