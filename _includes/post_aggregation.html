@@ -1,9 +1,7 @@
 {% for post in site.posts %}
     <div class="{% if post.thumbnail %}post{% else %}post-no-img{% endif %}">
         {% if post.thumbnail %}
-            <a href="{{ post.url | prepend: site.baseurl }}">
-                <div class="post-image" style="background-image: url('{{ post.thumbnail | prepend: site.baseurl }}');"></div>
-            </a>
+            <div class="post-image" style="background-image: url('{{ post.thumbnail | prepend: site.baseurl }}');"></div>
         {% endif %}
         <div class="preview-content">
             <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="preview-headline">{{ post.title }}</h2></a>
