@@ -1,74 +1,83 @@
 /******* Begin 404.html Custom CSS ********/
 
-.u-pnf-section-1 {
+.image-404 {
   background-image: url("../images/leung-jason-unsplash-filtered.png");
   background-position: 50% 50%;
 }
 
-.u-pnf-section-1 .u-pnf-sheet-1 {
+.container-404 {
   min-height: 532px;
 }
 
-.u-pnf-section-1 .u-text-1 {
+.text-404 {
   font-weight: 700;
-  text-shadow: 4px 3px 9px rgba(0,0,0,1);
+  text-shadow: 4px 3px 9px var(--black);
   margin: 187px auto 60px;
 }
 
 /******* Begin contact.html Custom CSS ********/
 
-.u-contact-section-1 .u-contact-sheet-1 {
+.container-contact div {
   min-height: 400px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
-.u-contact-section-1 .u-contact-text-1 {
+.container-contact div > * {
+  flex-shrink: 0;
+}
+
+.contact-text {
   margin: 60px auto;
 }
 
-.u-contact-section-1 .u-contact-btn-1 {
-  background-image: none;
+.contact-btn {
   font-size: 1.125rem;
   padding: 0;
 }
 
 @media (min-height: 900px){
-  .u-contact-section-1 {
+  .container-contact {
     min-height: calc(100vh - 229px - 233px - 46px);
   }
 }
 
 /******* Begin contribute.html Custom CSS ********/
 
-.u-contr-section-1 {
-  background-image: none;
+.container-contr {
+  background-color: var(--med-gray);
 }
 
-.u-contr-section-1 .u-contr-sheet-1 {
+.container-contr > div {
   min-height: 400px;
 }
 
-.u-contr-section-1 .u-contr-text-1 {
+.container-contr > p {
   margin: 90px 316px 0 324px;
+  word-wrap: break-word;
+  position: relative;
+  text-align: center;
 }
 
-.u-contr-section-1 .u-contr-btn-1 {
+.contr-btn {
   letter-spacing: 1px;
   margin: 89px auto 60px;
   white-space: normal;
 }
 
-.u-contr-section-1 {
+.container-contr {
   min-height: 400px;
 }
 
 @media (max-width: 992px) {
-  .u-contr-section-1 .u-contr-text-1 {
+  .container-contr > p {
       margin: 100px 0px;
   }
 }
 
 @media (min-height: 900px){
-  .u-contr-section-1 {
+  .container-contr {
     min-height: calc(100vh - 229px - 233px - 46px);
   }
 }
@@ -293,7 +302,7 @@
     min-height: 551px;
   }
   .u-home-sheet-1 {
-    margin: auto 40px;
+    margin: auto;
     width: 100% !important;
   }
 }
@@ -386,6 +395,11 @@
 
 
 /******* Begin nav.html Custom CSS ********/
+
+.header {
+  position: relative;
+  background-color: var(--header-bg);
+}
 
 .u-nav-orient {
   display: grid;
