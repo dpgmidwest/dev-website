@@ -586,10 +586,10 @@ td, th {
 }
 
 thead {
-  background-color: black;
-  color: white;
+  background-color: var(--black);
+  color: var(--white);
   font-size: 0.875rem;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border-bottom: solid 2px white;
+  border-bottom: solid 2px var(--light-gray);
 }
