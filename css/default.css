@@ -133,6 +133,7 @@ footer>* {
   padding: 85px 25px 50px 25px;
   align-items: center;
   background-color: var(--black);
+  text-align: center;
 }
 
 .container-home>* {
