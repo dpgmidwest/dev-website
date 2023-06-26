@@ -360,6 +360,18 @@ h1.post-title {
   }
 }
 
+@media (max-width: 360px) {
+
+  .inner-post-container,
+  .container-nav {
+    width: var(--theme-sheet-width-xxs) !important;
+  }
+
+  a {
+    word-break: break-all;
+  }
+}
+
 table {
   border-collapse: collapse;
   margin: auto;
