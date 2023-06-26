@@ -370,6 +370,11 @@ h1.post-title {
   a {
     word-break: break-all;
   }
+
+  .btn {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 table {
