@@ -1,9 +1,9 @@
 :root {
     /* basic colors */
     --black: rgb(0, 0, 0);
-    --dark-gray: rgb(44, 46, 62);
-    --med-gray: rgb(66, 68, 81);
-    --light-gray: rgb(210, 212, 219);
+    --dark-gray: rgb(35, 35, 35);
+    --med-gray: rgb(66, 66, 66);
+    --light-gray: rgb(190, 190, 190);
     --white: rgb(235, 235, 235);
     --red: rgb(183, 49, 49);
     --light-red: rgb(224, 70, 67);
