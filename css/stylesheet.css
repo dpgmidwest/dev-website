@@ -155,6 +155,19 @@ ul {
     }
 }
 
+.responsive-sheet {
+    padding: 50px;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+@media (max-width: 575px) {
+    .responsive-sheet {
+        padding: 50px 25px;
+        width: 100%;
+    }
+}
+
 .btn {
     display: table;
     white-space: nowrap;
