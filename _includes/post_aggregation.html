@@ -18,7 +18,10 @@
                 <a href="{{ post.url | prepend: site.baseurl }}">
                     <h2 class="u-text u-home-text-1">{{ post.title }}</h2>
                 </a>
-                <p class="u-text u-home-text-2">Posted on {{ post.date | date: "%B %-d, %Y" }} </p>
+                <p class="u-text u-home-text-2">
+                    {% if post.icon %}<i class="ico-{{ post.icon }}"></i>
+                    {% else %}<i class="ico-quill"></i>{% endif %} &middot; Posted on {{ post.date | date: "%B %-d, %Y" }}
+                </p>
                 <p class="u-text u-home-text-3">{{ post.content | strip_html | truncate:200 }}</p>
             </div>
             </div>
