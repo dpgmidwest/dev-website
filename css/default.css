@@ -578,11 +578,11 @@
 table {
   border-collapse: collapse;
   margin: auto;
-  min-width: 300px;
+  width: 100%
 }
 
 td, th {
-  padding: 5px 20px;
+  padding: 10px 20px;
 }
 
 thead {
@@ -592,6 +592,7 @@ thead {
   text-transform: uppercase;
   letter-spacing: 1px;
   border-bottom: solid 2px var(--light-gray);
+  text-align: left;
 }
 
 .section-header {
