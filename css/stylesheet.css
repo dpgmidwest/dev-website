@@ -2,7 +2,9 @@
     /* basic colors */
     --black: rgb(0, 0, 0);
     --dark-gray: rgb(20, 20, 20);
+    --meddark-gray: rgb(40, 40, 40);
     --med-gray: rgb(66, 66, 66);
+    --medlight-gray: rgb(112, 112, 112);
     --light-gray: rgb(190, 190, 190);
     --white: rgb(235, 235, 235);
     --red: rgb(183, 49, 49);
@@ -10,7 +12,7 @@
 
     /* background colors */
     --body-bg: var(--dark-gray);
-    --card-bg: var(--card-gray);
+    --card-bg: var(--meddark-gray);
     --header-bg: var(--black);
     --footer-bg: var(--black);
     --nav-bg: var(--red);
