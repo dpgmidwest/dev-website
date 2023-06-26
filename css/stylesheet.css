@@ -12,6 +12,7 @@
     --body-bg: var(--dark-gray);
     --card-bg: var(--card-gray);
     --header-bg: var(--black);
+    --footer-bg: var(--black);
     --nav-bg: var(--red);
     --btn-bg: var(--red);
     --btn-hover-bg: var(--light-red);
@@ -90,6 +91,7 @@ a:hover {
 footer {
     padding-bottom: 40px;
     display: block;
+    background-color: var(--footer-bg);
 }
 
 summary {
@@ -1613,7 +1615,7 @@ section.u-image:not(.u-hover-box) {
     max-width: 100%;
 }
 
-.u-updates-section-2 .u-layout-row {
+.u-layout-row {
     border-top: solid;
     border-bottom: solid;
 }
@@ -2599,35 +2601,35 @@ ol {
     }
 }
 
-.footer .u-sheet-1 {
+footer .u-sheet-1 {
     min-height: 226px;
 }
 
-.footer .u-icon-1 {
+footer .u-icon-1 {
     vertical-align: 0;
     font-size: 0.8889em;
 }
 
-.footer .u-text-2 {
+footer .u-text-2 {
     margin: 0;
 }
 
-.footer .btn-1 {
+footer .btn-1 {
     font-size: 1.125rem;
     padding: 0;
 }
 
-.footer .u-icon-2 {
+footer .u-icon-2 {
     vertical-align: -4px;
     margin-right: 1px;
     font-size: 1.5em;
 }
 
-.footer .u-text-3 {
+footer .u-text-3 {
     margin: 0 0 11px;
 }
 
-.footer .btn-2 {
+footer .btn-2 {
     font-size: 1.125rem;
     padding: 0;
 }
