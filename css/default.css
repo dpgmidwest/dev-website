@@ -310,7 +310,9 @@ h1.post-title {
   font-size: 2.75em;
 }
 
-
+.post-tail {
+  min-height: 100px;
+}
 
 @media (min-width: 1400px) {
   .inner-post-container {
