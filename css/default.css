@@ -19,7 +19,7 @@
 }
 
 .post-image {
-  min-width: 375px;
+  min-width: 340px;
   min-height: 250px;
   object-fit: cover;
   display: block;
@@ -54,6 +54,20 @@
 
 .preview-headline:hover {
   color: var(--light-red);
+}
+
+@media (max-width: 767) {
+  .post {
+    grid-template-columns: 100%;
+    justify-items: stretch;
+    align-items: normal;
+  }
+  .preview-content {
+    padding: 10px 20px;
+  }
+  .post-image {
+    min-height: 175px;
+  }
 }
 
 .section-header {
