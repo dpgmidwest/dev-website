@@ -116,6 +116,10 @@ section {
     display: block;
 }
 
+hr {
+    margin: 30px auto;
+}
+
 details[open] {
     padding-bottom: 50px;
 }
