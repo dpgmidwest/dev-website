@@ -401,7 +401,7 @@
   background-color: var(--header-bg);
 }
 
-.u-orient {
+.u-nav-orient {
   display: grid;
   justify-items: center;
   margin-top: 27px;
