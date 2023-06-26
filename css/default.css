@@ -465,8 +465,11 @@ pre {
   }
 
   footer {
-    font-size: 14px;
     padding: 40px 10px;
+  }
+
+  footer>* {
+    font-size: 14px;
   }
 
   .preview-headline {
