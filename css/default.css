@@ -457,15 +457,6 @@
     text-align: left;
     padding: 6px;
     font-weight: 700;
-    border-bottom: solid rgb(0 0 0 / 53%);
-  }
-  .u-menu-orient {
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(4,40px);
-    width: 100vw;
-    padding: 10px;
-    background-color: transparent;
   }
   .u-home-section-2 .u-home-text-1 {
     font-size: 1.5rem;
