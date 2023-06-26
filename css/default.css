@@ -396,12 +396,27 @@ pre {
     margin: 0 15px 30px 15px;
   }
 
+  .small-page-container {
+    padding: 15px;
+    gap: 0;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .post-container {
+    padding: 25px 0;
+  }
+
+  .post {
+    margin: 0 15px 30px 15px;
+  }
+
   .container-faq {
     margin: 0 15px 23px 15px;
   }
 
   .small-page-container {
-    padding: 15px;
-    gap: 0;
+    font-size: 18px;
   }
 }
