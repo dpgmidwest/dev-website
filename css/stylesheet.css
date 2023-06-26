@@ -50,6 +50,8 @@ body {
     min-height: 100%;
     background-color: var(--body-bg);
     color: var(--body-text);
+    font-family: "Open Sans", sans-serif;
+    --effect-scale: 1.1;
 }
 
 body,
@@ -65,10 +67,6 @@ footer>*,
 header>*,
 section>* {
     position: relative;
-}
-
-base {
-    display: none;
 }
 
 a {
@@ -2386,10 +2384,6 @@ a.u-button-style.u-border-20 {
     border-radius: var(--border-top-left-radius, var(--border-radius, 0)) var(--border-top-right-radius, var(--border-radius, 0)) var(--border-bottom-right-radius, var(--border-radius, 0)) var(--border-bottom-left-radius, var(--border-radius, 0)) !important;
 }
 
-.u-body {
-    font-family: "Open Sans", sans-serif;
-}
-
 h1,
 h2,
 h3,
@@ -2401,12 +2395,6 @@ h6 {
 
 .u-image {
     color: #111;
-}
-
-.u-body {
-    color: #d9cdcd;
-    background-color: #151415;
-    --effect-scale: 1.1;
 }
 
 .u-custom-font.u-text-font {
