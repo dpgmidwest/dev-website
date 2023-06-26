@@ -473,7 +473,8 @@ pre {
   }
 
   .preview-headline {
-    font-size: 1.75rem;
+    font-size: 1.75em !important;
+    word-break: break-word;
   }
 
   .preview-meta,
