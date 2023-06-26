@@ -56,6 +56,16 @@
   color: var(--light-red);
 }
 
+.section-header {
+  background-color: var(--header-bg);
+  text-align: center;
+  border-bottom: 5px solid var(--light-red);
+}
+
+.section-header > * {
+  padding: 10px 0;
+}
+
 .container-contact div {
   min-height: 400px;
   justify-content: center;
@@ -650,17 +660,6 @@ thead {
   letter-spacing: 1px;
   border-bottom: solid 2px var(--light-gray);
   text-align: left;
-}
-
-.section-header {
-  background-color: var(--header-bg);
-  box-shadow: 0 5px 0px var(--light-red);
-  margin-bottom: 5px;
-  text-align: center;
-}
-
-.section-header > * {
-  padding: 10px 0;
 }
 
 a>h2 {
