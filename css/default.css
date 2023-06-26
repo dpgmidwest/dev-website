@@ -8,6 +8,12 @@
   margin: 187px auto 60px;
 }
 
+.plain-section-header {
+  width: 100%;
+  text-align: center;
+  padding: 25px;
+}
+
 .post-container {
   padding: 25px;
   margin: 0 auto;
@@ -98,46 +104,13 @@ footer>* {
   margin: 0;
 }
 
-.container-contact div {
-  min-height: 400px;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.container-contact div>* {
-  flex-shrink: 0;
-}
-
-.contact-text {
-  margin: 60px auto;
-}
-
-.contact-btn {
-  font-size: 1.125rem;
-  padding: 0;
-}
-
-@media (min-height: 900px) {
-  .container-contact {
-    min-height: calc(100vh - 229px - 233px - 46px);
-  }
-}
-
-/******* Begin contribute.html Custom CSS ********/
-
-.container-contr>p {
+.small-page-container>p {
   word-wrap: break-word;
   position: relative;
   text-align: center;
 }
 
-.contr-btn {
-  margin: 0 auto;
-  white-space: normal;
-}
-
-.container-contr {
+.small-page-container {
   min-height: 400px;
   display: flex;
   flex-direction: column;
