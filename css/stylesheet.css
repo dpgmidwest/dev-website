@@ -167,7 +167,6 @@ ul {
         grid-template-rows: repeat(5, 40px);
         width: 100vw;
         padding: 10px;
-        background-color: transparent;
     }
 }
 
