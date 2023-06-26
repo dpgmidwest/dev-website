@@ -321,10 +321,17 @@ h1.post-title {
 }
 
 @media (min-width: 1400px) {
-
   .inner-post-container,
   .container-nav {
     width: var(--theme-sheet-width-xxl) !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+  .inner-post-container,
+  .container-nav {
+    width: var(--theme-sheet-width-xl) !important;
   }
 }
 
