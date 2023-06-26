@@ -615,8 +615,8 @@ thead {
 
 .section-header {
   background-color: var(--header-bg);
-  box-shadow: 0 5px 0px var(--light-gray);
-  margin-bottom: 25px;
+    box-shadow: 0 5px 0px var(--light-red);
+    margin-bottom: 25px;
 }
 
 a>h2 {
