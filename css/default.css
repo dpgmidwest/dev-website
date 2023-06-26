@@ -362,6 +362,10 @@ h1.post-title {
 
 @media (max-width: 360px) {
 
+  body {
+    word-break: break-word;
+  }
+
   .inner-post-container,
   .container-nav {
     width: var(--theme-sheet-width-xxs) !important;
@@ -380,6 +384,18 @@ h1.post-title {
     font-size: 14px;
     padding: 40px 10px;
   }
+
+  .preview-headline {
+    font-size: 1.75rem;
+  }
+
+  .preview-meta, .preview-summary {
+    font-size: 14px;
+  }
+
+  .display-img-div {
+    min-height: 680px;
+}
 }
 
 table {
