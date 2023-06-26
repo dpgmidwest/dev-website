@@ -79,7 +79,7 @@ footer {
   flex-wrap: nowrap;
 }
 
-footer > * {
+footer>* {
   font-weight: normal;
   font-size: medium;
   height: 40px;
@@ -561,13 +561,21 @@ footer > * {
 
 .menu-item {
   text-align: center;
+  padding: 10px;
 }
 
-.menu-item>a {
+.menu-item > a {
   color: var(--nav-text);
+    font-weight: 500;
+    width: 100%;
+    display: block;
 }
 
-@media (max-width: 486px) {
+.menu-item > a:hover {
+  color: var(--nav-hover-text);
+}
+
+@media (max-width: 530px) {
   .menu-item {
     text-align: left;
     padding: 6px;

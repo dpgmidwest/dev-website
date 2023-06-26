@@ -26,6 +26,7 @@
     --btn-text: var(--white);
     --btn-hover-text: var(--light-gray);
     --nav-text: var(--white);
+    --nav-hover-text: var(--light-gray);
     --faq-text: var(--light-right);
 
     /* widths */
