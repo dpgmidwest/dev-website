@@ -171,6 +171,7 @@ ul {
     .responsive-sheet {
         padding: 50px 25px;
         width: 100%;
+        min-width: none;
     }
 }
 
