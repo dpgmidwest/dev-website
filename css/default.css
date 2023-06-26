@@ -177,6 +177,37 @@ footer>* {
   padding-right: 20px;
 }
 
+.display-font {
+  font-family: 'Titillium Web';
+  font-size: 1.3em;
+}
+
+.container-home {
+  display: flex;
+  flex-direction: column;
+  margin: 85px 25px 50px 25px;
+  align-items: center;
+  background-color: var(--black);
+}
+
+.container-home>* {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.container-home>h1 {
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+.container-home>.btn {
+  margin: 40px auto;
+}
+
+.container-home>p {
+  text-transform: uppercase;
+}
+
 .display-img-div {
   background-image: url("../images/moshed-trees23.png");
   background-position: 50% 50%;
