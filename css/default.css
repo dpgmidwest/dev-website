@@ -206,7 +206,7 @@ footer>* {
 
 #brand-1,
 #brand-2 {
-  font-size: 36px;
+  font-size: 48px;
 }
 
 #brand-1 {
@@ -342,6 +342,9 @@ h1.post-title {
   .container-nav {
     width: var(--theme-sheet-width-md) !important;
   }
+  #brand-1, #brand-2 {
+      font-size: 36px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -350,6 +353,9 @@ h1.post-title {
   .container-nav {
     width: var(--theme-sheet-width-sm) !important;
   }
+  #brand-1, #brand-2 {
+    font-size: 30px;
+}
 }
 
 @media (max-width: 575px) {
@@ -358,6 +364,9 @@ h1.post-title {
   .container-nav {
     width: var(--theme-sheet-width-xs) !important;
   }
+  #brand-1, #brand-2 {
+    font-size: 36px;
+}
 }
 
 table {
