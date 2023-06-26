@@ -141,7 +141,8 @@ footer>* {
   line-height: 1.5;
 }
 
-.container-home>h1, .container-home>h2 {
+.container-home>h1,
+.container-home>h2 {
   font-weight: 700;
   letter-spacing: -1px;
 }
@@ -149,6 +150,7 @@ footer>* {
 .container-home>h1 {
   font-size: 2.25em;
 }
+
 .container-home>h2 {
   font-size: 2em;
 }
@@ -308,30 +310,31 @@ h1.post-title {
 
 @media (min-width: 1400px) {
   .inner-post-container {
-      width: var(--theme-sheet-width-xxl) !important;
+    width: var(--theme-sheet-width-xxl) !important;
   }
 }
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .inner-post-container {
-      width: var(--theme-sheet-width-lg) !important;
+    width: var(--theme-sheet-width-lg) !important;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .inner-post-container {
-      width: var(--theme-sheet-width-md) !important;
+    width: var(--theme-sheet-width-md) !important;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
   .inner-post-container {
-      width: var(--theme-sheet-width-sm) !important;
+    width: var(--theme-sheet-width-sm) !important;
   }
 }
 
 @media (max-width: 575px) {
   .inner-post-container {
-      width: var(--theme-sheet-width-xs) !important;
+    width: var(--theme-sheet-width-xs) !important;
   }
 }
 
@@ -375,17 +378,30 @@ pre {
   .display-img-div {
     min-height: 515px;
   }
+
   .post-image {
     min-width: 275px;
     min-height: 230px;
   }
+
   footer {
     padding: 40px 25px;
   }
+
   .post-container {
     padding: 0;
   }
+
   .post {
     margin: 0 15px 30px 15px;
+  }
+
+  .container-faq {
+    margin: 0 15px 23px 15px;
+  }
+
+  .small-page-container {
+    padding: 15px;
+    gap: 0;
   }
 }
