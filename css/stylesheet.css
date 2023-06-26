@@ -24,6 +24,16 @@
     --btn-hover-text: var(--light-gray);
     --nav-text: var(--white);
     --faq-text: var(--light-right);
+
+    /* widths */
+    --theme-sheet-width-xl: 1140px;
+    --theme-sheet-width-lg: 940px;
+    --theme-sheet-width-md: 720px;
+    --theme-sheet-width-sm: 540px;
+    --theme-sheet-width-xs: 340px;
+
+    /* effect */
+    --effect-scale: 1.1;
 }
 
 *,
@@ -51,7 +61,6 @@ body {
     background-color: var(--body-bg);
     color: var(--body-text);
     font-family: "Open Sans", sans-serif;
-    --effect-scale: 1.1;
 }
 
 body,
@@ -202,7 +211,6 @@ a {
     text-decoration: none;
     border: 0 none transparent;
     outline-width: 0;
-    background-color: transparent;
     margin: 0;
     -webkit-text-decoration-skip: objects;
 }
@@ -1778,7 +1786,6 @@ div.u-video {
     text-decoration: none;
     border: 0 none transparent;
     outline-width: 0;
-    background-color: transparent;
     margin: 0;
     -webkit-text-decoration-skip: objects;
 }
@@ -2294,14 +2301,6 @@ h6 {
     font-family: "Titillium Web", sans-serif;
 }
 
-.u-body {
-    --theme-sheet-width-xl: 1140px;
-    --theme-sheet-width-lg: 940px;
-    --theme-sheet-width-md: 720px;
-    --theme-sheet-width-sm: 540px;
-    --theme-sheet-width-xs: 340px;
-}
-
 h1.u-title {
     font-size: 3rem;
     line-height: 1.1;
@@ -2530,269 +2529,6 @@ ol {
     .u-post-content {
         font-size: 1rem;
     }
-}
-
-.u-image:not(.u-shading)>.u-container-layout>h1.u-title,
-h1.u-title {
-    color: #fa5454;
-}
-
-.u-image:not(.u-shading)>.u-container-layout>h2.u-subtitle,
-h2.u-subtitle {
-    color: silver;
-}
-
-.u-image:not(.u-shading)>.u-container-layout>h1:not(.u-title),
-h1:not(.u-title) {
-    color: #f3f8f6;
-}
-
-.u-image:not(.u-shading)>.u-container-layout>h2:not(.u-subtitle),
-h2:not(.u-subtitle) {
-    color: #f3f8f6;
-}
-
-.u-image:not(.u-shading)>.u-container-layout>p.u-large-text,
-p.u-large-text {
-    color: #f3f8f6;
-}
-
-.u-image:not(.u-shading)>.u-container-layout>p:not(.u-text-variant),
-p:not(.u-text-variant) {
-    color: #f2f2f2;
-}
-
-.u-image:not(.u-shading)>.u-container-layout>a,
-a {
-    color: #d26161;
-}
-
-.u-image:not(.u-shading)>.u-container-layout>a:hover,
-a:hover {
-    color: #6a2b2b;
-}
-
-.u-image:not(.u-shading)>.u-container-layout>ul:not(.u-unstyled),
-ul:not(.u-unstyled) {
-    color: #f3f8f6;
-}
-
-.u-image:not(.u-shading)>.u-container-layout>ol,
-ol {
-    color: #f3f8f6;
-}
-
-.u-black h1.u-title,
-.u-body-color h1.u-title,
-.u-palette-1 h1.u-title,
-.u-palette-1-base h1.u-title,
-.u-palette-1-dark-1 h1.u-title,
-.u-palette-1-dark-2 h1.u-title,
-.u-palette-1-dark-3 h1.u-title,
-.u-palette-1-light-1 h1.u-title,
-.u-palette-2 h1.u-title,
-.u-palette-2-base h1.u-title,
-.u-palette-2-dark-1 h1.u-title,
-.u-palette-2-dark-2 h1.u-title,
-.u-palette-2-dark-3 h1.u-title,
-.u-palette-2-light-1 h1.u-title,
-.u-palette-2-light-2 h1.u-title,
-.u-palette-3 h1.u-title,
-.u-palette-3-base h1.u-title,
-.u-palette-3-dark-1 h1.u-title,
-.u-palette-3-dark-2 h1.u-title,
-.u-palette-3-dark-3 h1.u-title,
-.u-palette-3-light-1 h1.u-title,
-.u-palette-4 h1.u-title,
-.u-palette-4-base h1.u-title,
-.u-palette-4-dark-1 h1.u-title,
-.u-palette-4-dark-2 h1.u-title,
-.u-palette-4-dark-3 h1.u-title,
-.u-palette-4-light-1 h1.u-title,
-.u-palette-5 h1.u-title,
-.u-palette-5-base h1.u-title,
-.u-palette-5-dark-1 h1.u-title,
-.u-palette-5-dark-2 h1.u-title,
-.u-palette-5-dark-3 h1.u-title {
-    color: #fee6e6;
-}
-
-.u-black a,
-.u-body-color a,
-.u-palette-1 a,
-.u-palette-1-base a,
-.u-palette-1-dark-1 a,
-.u-palette-1-dark-2 a,
-.u-palette-1-dark-3 a,
-.u-palette-1-light-1 a,
-.u-palette-2 a,
-.u-palette-2-base a,
-.u-palette-2-dark-1 a,
-.u-palette-2-dark-2 a,
-.u-palette-2-dark-3 a,
-.u-palette-2-light-1 a,
-.u-palette-2-light-2 a,
-.u-palette-3 a,
-.u-palette-3-base a,
-.u-palette-3-dark-1 a,
-.u-palette-3-dark-2 a,
-.u-palette-3-dark-3 a,
-.u-palette-3-light-1 a,
-.u-palette-4 a,
-.u-palette-4-base a,
-.u-palette-4-dark-1 a,
-.u-palette-4-dark-2 a,
-.u-palette-4-dark-3 a,
-.u-palette-4-light-1 a,
-.u-palette-5 a,
-.u-palette-5-base a,
-.u-palette-5-dark-1 a,
-.u-palette-5-dark-2 a,
-.u-palette-5-dark-3 a {
-    color: #cad9db;
-}
-
-.u-black a:hover,
-.u-body-color a:hover,
-.u-palette-1 a:hover,
-.u-palette-1-base a:hover,
-.u-palette-1-dark-1 a:hover,
-.u-palette-1-dark-2 a:hover,
-.u-palette-1-dark-3 a:hover,
-.u-palette-1-light-1 a:hover,
-.u-palette-2 a:hover,
-.u-palette-2-base a:hover,
-.u-palette-2-dark-1 a:hover,
-.u-palette-2-dark-2 a:hover,
-.u-palette-2-dark-3 a:hover,
-.u-palette-2-light-1 a:hover,
-.u-palette-2-light-2 a:hover,
-.u-palette-3 a:hover,
-.u-palette-3-base a:hover,
-.u-palette-3-dark-1 a:hover,
-.u-palette-3-dark-2 a:hover,
-.u-palette-3-dark-3 a:hover,
-.u-palette-3-light-1 a:hover,
-.u-palette-4 a:hover,
-.u-palette-4-base a:hover,
-.u-palette-4-dark-1 a:hover,
-.u-palette-4-dark-2 a:hover,
-.u-palette-4-dark-3 a:hover,
-.u-palette-4-light-1 a:hover,
-.u-palette-5 a:hover,
-.u-palette-5-base a:hover,
-.u-palette-5-dark-1 a:hover,
-.u-palette-5-dark-2 a:hover,
-.u-palette-5-dark-3 a:hover {
-    color: #a1a1a1;
-}
-
-.u-black .btn,
-.u-body-color .btn,
-.u-palette-1 .btn,
-.u-palette-1-base .btn,
-.u-palette-1-dark-1 .btn,
-.u-palette-1-dark-2 .btn,
-.u-palette-1-dark-3 .btn,
-.u-palette-1-light-1 .btn,
-.u-palette-2 .btn,
-.u-palette-2-base .btn,
-.u-palette-2-dark-1 .btn,
-.u-palette-2-dark-2 .btn,
-.u-palette-2-dark-3 .btn,
-.u-palette-2-light-1 .btn,
-.u-palette-2-light-2 .btn,
-.u-palette-3 .btn,
-.u-palette-3-base .btn,
-.u-palette-3-dark-1 .btn,
-.u-palette-3-dark-2 .btn,
-.u-palette-3-dark-3 .btn,
-.u-palette-3-light-1 .btn,
-.u-palette-4 .btn,
-.u-palette-4-base .btn,
-.u-palette-4-dark-1 .btn,
-.u-palette-4-dark-2 .btn,
-.u-palette-4-dark-3 .btn,
-.u-palette-4-light-1 .btn,
-.u-palette-5 .btn,
-.u-palette-5-base .btn,
-.u-palette-5-dark-1 .btn,
-.u-palette-5-dark-2 .btn,
-.u-palette-5-dark-3 .btn {
-    background-color: #f2b5bb;
-    color: #000;
-}
-
-.u-black .btn:hover,
-.u-body-color .btn:hover,
-.u-palette-1 .btn:hover,
-.u-palette-1-base .btn:hover,
-.u-palette-1-dark-1 .btn:hover,
-.u-palette-1-dark-2 .btn:hover,
-.u-palette-1-dark-3 .btn:hover,
-.u-palette-1-light-1 .btn:hover,
-.u-palette-2 .btn:hover,
-.u-palette-2-base .btn:hover,
-.u-palette-2-dark-1 .btn:hover,
-.u-palette-2-dark-2 .btn:hover,
-.u-palette-2-dark-3 .btn:hover,
-.u-palette-2-light-1 .btn:hover,
-.u-palette-2-light-2 .btn:hover,
-.u-palette-3 .btn:hover,
-.u-palette-3-base .btn:hover,
-.u-palette-3-dark-1 .btn:hover,
-.u-palette-3-dark-2 .btn:hover,
-.u-palette-3-dark-3 .btn:hover,
-.u-palette-3-light-1 .btn:hover,
-.u-palette-4 .btn:hover,
-.u-palette-4-base .btn:hover,
-.u-palette-4-dark-1 .btn:hover,
-.u-palette-4-dark-2 .btn:hover,
-.u-palette-4-dark-3 .btn:hover,
-.u-palette-4-light-1 .btn:hover,
-.u-palette-5 .btn:hover,
-.u-palette-5-base .btn:hover,
-.u-palette-5-dark-1 .btn:hover,
-.u-palette-5-dark-2 .btn:hover,
-.u-palette-5-dark-3 .btn:hover {
-    background-color: #fee6e6;
-    color: #000;
-}
-
-.u-black .btn:active,
-.u-body-color .btn:active,
-.u-palette-1 .btn:active,
-.u-palette-1-base .btn:active,
-.u-palette-1-dark-1 .btn:active,
-.u-palette-1-dark-2 .btn:active,
-.u-palette-1-dark-3 .btn:active,
-.u-palette-1-light-1 .btn:active,
-.u-palette-2 .btn:active,
-.u-palette-2-base .btn:active,
-.u-palette-2-dark-1 .btn:active,
-.u-palette-2-dark-2 .btn:active,
-.u-palette-2-dark-3 .btn:active,
-.u-palette-2-light-1 .btn:active,
-.u-palette-2-light-2 .btn:active,
-.u-palette-3 .btn:active,
-.u-palette-3-base .btn:active,
-.u-palette-3-dark-1 .btn:active,
-.u-palette-3-dark-2 .btn:active,
-.u-palette-3-dark-3 .btn:active,
-.u-palette-3-light-1 .btn:active,
-.u-palette-4 .btn:active,
-.u-palette-4-base .btn:active,
-.u-palette-4-dark-1 .btn:active,
-.u-palette-4-dark-2 .btn:active,
-.u-palette-4-dark-3 .btn:active,
-.u-palette-4-light-1 .btn:active,
-.u-palette-5 .btn:active,
-.u-palette-5-base .btn:active,
-.u-palette-5-dark-1 .btn:active,
-.u-palette-5-dark-2 .btn:active,
-.u-palette-5-dark-3 .btn:active {
-    background-color: #d9cdcd;
-    color: #000;
 }
 
 .u-header .u-sheet-1 {
