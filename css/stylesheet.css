@@ -144,18 +144,16 @@ ul {
 .nav-bar {
     display: grid;
     grid-template-columns: repeat(5, 20%);
-    width: 100vw;
-    padding: 10px;
+    grid-template-rows: 100%;
+    width: 100%;
     background-color: var(--nav-bg);
     color: var(--nav-text);
 }
 
 @media (max-width: 486px) {
     .nav-bar {
-        display: grid;
         grid-template-columns: 100%;
         grid-template-rows: repeat(5, 40px);
-        width: 100vw;
         padding: 10px;
     }
 }
