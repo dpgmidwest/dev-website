@@ -293,14 +293,10 @@ a {
     font-weight: 400;
 }
 
-.u-clearfix:after,
-.u-clearfix:before {
+.container:after,
+.container:before {
     content: "";
     display: table;
-}
-
-.u-clearfix:after {
-    clear: both;
 }
 
 ul.u-text li:last-child {
