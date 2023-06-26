@@ -443,7 +443,7 @@ pre {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 359px) {
 
   body {
     word-break: break-word;
