@@ -419,7 +419,7 @@ pre {
   }
 
   .post-image {
-    min-width: 275px;
+    min-width: 0px;
     min-height: 230px;
   }
 
