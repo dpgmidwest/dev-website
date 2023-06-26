@@ -14895,30 +14895,6 @@ a:hover {
     color: #6a2b2b;
 }
 
-.btn,
-.u-image:not(.u-shading)>.u-container-layout>.btn {
-    background-color: #bf404c;
-    color: #d9cdcd;
-}
-
-.btn:hover,
-.u-image:not(.u-shading)>.u-container-layout>.btn:hover {
-    background-color: #754040;
-    color: #d9cdcd;
-}
-
-.btn:focus,
-.u-image:not(.u-shading)>.u-container-layout>.btn:focus {
-    background-color: #754040;
-    color: #d9cdcd;
-}
-
-.btn:active,
-.u-image:not(.u-shading)>.u-container-layout>.btn:active {
-    background-color: #4d4d4d;
-    color: #d9cdcd;
-}
-
 .u-image:not(.u-shading)>.u-container-layout>ul:not(.u-unstyled),
 ul:not(.u-unstyled) {
     color: #f3f8f6;
