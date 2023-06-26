@@ -598,3 +598,6 @@ thead {
   background-color: var(--header-bg);
 }
 
+a > h2 {
+  color: var(--white);
+}
