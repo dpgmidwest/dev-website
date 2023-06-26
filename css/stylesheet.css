@@ -1618,6 +1618,7 @@ section.u-image:not(.u-hover-box) {
 .u-layout-row {
     border-top: solid;
     border-bottom: solid;
+    border-color: var(--black);
 }
 
 .u-layout-cell {
