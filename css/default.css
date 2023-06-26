@@ -184,22 +184,6 @@ footer>* {
   display: block;
 }
 
-@media (max-width: 439px) {
-  .display-img-div {
-    min-height: 515px;
-  }
-  .post-image {
-    min-width: 275px;
-    min-height: 230px;
-  }
-  footer {
-    padding: 40px 25px;
-  }
-  .preview-summary {
-    display: none;
-  }
-}
-
 .header {
   position: relative;
   background-color: var(--header-bg);
@@ -385,4 +369,23 @@ pre {
 .footnotes {
   border-top: solid;
   margin-top: 75px;
+}
+
+@media (max-width: 439px) {
+  .display-img-div {
+    min-height: 515px;
+  }
+  .post-image {
+    min-width: 275px;
+    min-height: 230px;
+  }
+  footer {
+    padding: 40px 25px;
+  }
+  .post-container {
+    padding: 0;
+  }
+  .post {
+    margin: 0 15px 30px 15px;
+  }
 }
