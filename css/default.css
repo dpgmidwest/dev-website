@@ -466,6 +466,10 @@
   text-align: center;
 }
 
+.menu-item > a {
+  color: var(--nav-text);
+}
+
 @media (max-width: 486px) {
   .menu-item {
     text-align: left;
