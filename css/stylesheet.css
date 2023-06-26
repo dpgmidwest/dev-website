@@ -2424,13 +2424,6 @@ a {
     line-height: 1.6;
 }
 
-ul:not(.u-unstyled) {
-    font-size: 1.125rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
-
 ol {
     font-size: 1.125rem;
     margin-top: 20px;
@@ -2519,12 +2512,6 @@ ol {
 
 @media (max-width: 767px) {
     a {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 767px) {
-    ul:not(.u-unstyled) {
         font-size: 1rem;
     }
 }
