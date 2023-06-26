@@ -333,7 +333,7 @@ span.fr-img-caption.fr-view {
       float: right;
       margin: 5px 0 5px 5px;
       max-width: calc(100% - 5px); }
-/*end-commonstyles library*/@charset "UTF-8";
+
 .u-hidden-block {
   visibility: hidden!important;
 }
@@ -2580,7 +2580,7 @@ a {
   left: 0px;
   width: 100%;
   text-align: center;
-  color: #d9cdcd
+  color: #d9cdcd;
   padding: 20px;
   border: none;
 }
@@ -14555,14 +14555,14 @@ section.u-image:not(.u-hover-box),
   width: 80px;
   height: 80px;
   margin: -40px 0 0 -40px;
-  border: 5px solid #d9cdcd
+  border: 5px solid #d9cdcd;
   border-radius: 100%;
 }
 .u-video-poster:after {
   width: 0;
   height: 0;
   margin: -20px 0 0 -10px;
-  border-left: 40px solid #d9cdcd
+  border-left: 40px solid #d9cdcd;
   border-top: 25px solid transparent;
   border-bottom: 25px solid transparent;
 }
