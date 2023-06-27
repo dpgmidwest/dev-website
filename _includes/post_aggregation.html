@@ -9,7 +9,7 @@
                 {% if post.icon %}<i class="ico-{{ post.icon }}"></i>
                 {% else %}<i class="ico-pencil"></i>{% endif %} &middot; Posted on {{ post.date | date: "%B %-d, %Y" }}
             </p>
-            <p class="preview-summary">{{ post.content | strip_html | truncate:200 }}</p>
+            <p class="preview-summary" aria-hidden="true">{{ post.content | strip_html | truncate:200 }}</p>
         </div>
     </div>
 {% endfor %}
