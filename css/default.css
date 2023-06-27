@@ -23,7 +23,6 @@
 }
 
 .post-image {
-  min-width: 340px;
   min-height: 250px;
   object-fit: cover;
   display: block;
@@ -37,7 +36,7 @@
   min-height: fit-content;
   margin: 0 15px 15px 15px;
   background-color: var(--meddark-gray);
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: min(34%, 350px) auto;
   align-items: stretch;
 }
 
@@ -418,7 +417,7 @@ pre {
   }
 
   .post-image {
-    min-width: 0px;
+    width: 100%;
     min-height: 230px;
   }
 
