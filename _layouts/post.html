@@ -5,8 +5,8 @@ layout: default
 <section class="post-head-container">
     <div class="inner-post-container">
         <h1 class="post-title">{{ page.title }}</h1>
-        {% if post.subtitle %}
-        <p class="post-subtitle">{{ page.subtitle }}</p>
+        {% if page.subtitle %}
+            <p class="post-subtitle">{{ page.subtitle }}</p>
         {% endif %}
         <p class="post-meta">
             {% if post.icon %}<i class="ico-{{ post.icon }}"></i>
