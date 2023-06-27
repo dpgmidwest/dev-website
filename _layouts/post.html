@@ -5,7 +5,9 @@ layout: default
 <section class="post-head-container">
     <div class="inner-post-container">
         <h1 class="post-title">{{ page.title }}</h1>
-        <h2 class="post-subtitle display-font">{{ page.subtitle }}</h2>
+        {% if post.subtitle %}
+        <p class="post-subtitle">{{ page.subtitle }}</p>
+        {% end if %}
         <p class="post-meta">
             {% if post.icon %}<i class="ico-{{ post.icon }}"></i>
             {% else %}<i class="ico-pencil"></i>{% endif %} &middot; 

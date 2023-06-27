@@ -40,6 +40,12 @@
   align-items: stretch;
 }
 
+.post-subtitle {
+  font-size: 1.25em;
+  margin-bottom: 15px;
+  color: var(--light-gray);
+}
+
 .post-no-img {
   display: grid;
   min-height: 250px;
